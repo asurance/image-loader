@@ -1,5 +1,5 @@
-import png from './answer_result_panel.png'
+import { url, width } from './loading.png'
 const image = document.createElement('img')
-image.src = png.url
-console.log(png.width)
+image.src = url
+console.log(width)
 document.body.appendChild(image)

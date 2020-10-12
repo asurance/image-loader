@@ -1,8 +1,5 @@
 declare module '*.png' {
-    const content: {
-        url: string,
-        width: number,
-        height: number,
-    }
-    export default content
+    export const url: string
+    export const width: number
+    export const height: number
 }
